@@ -15,9 +15,10 @@ class Main {
     }  
 
     
-    Scanner scan = new Scanner(System.in);
+    Scanner name1 = new Scanner(System.in);
     System.out.println("What is your name?");
-    String name = scan.next();
+    String name = name1.next();
+    
    
   }
 }
